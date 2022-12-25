@@ -1,7 +1,3 @@
-console.log('Cleint side js file is loaded')
-
-
-
 const weatherform = document.querySelector('#weather')
 const search  =  document.querySelector('#location')
 const messageOne = document.querySelector('#message-1')
@@ -40,5 +36,7 @@ weatherform.addEventListener('submit',(e) => {
         })
 
 })
+
+
 
 
